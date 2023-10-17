@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/icon-menu.svg" alt="" class="menuicon">
+          <img src="images/logo.svg" alt="">
+          <ul class="menulist">
+            <img src="images/icon-close.svg" alt="" id="closemenubutton">
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="cart">
+          <div class="carttrolley">
+            <div class="divnote"></div>
+            <img src="images/icon-cart.svg" alt="" class="trolley">
+          </div>
+          <div class="profileimage">
+            <img src="images/image-avatar.png" alt="">
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="content">
+      <div class="cartpop">
+        <p>Cart</p>
+        <div class="message1">
+          <p class="cartmm">Your Cart is empty</p>
+          <div class="cartcart">
+            <img id="cartimg" src="" alt="">
+            <div class="paraamount">
+              <p class="productname"></p>
+              <p class="productamount"></p>
+            </div>
+            <img src="" alt="" id="delete">
+          </div>
+          <button class="checkout">Checkout</button>
+        </div>
+      </div>
+      <div class="showimage">
+        <div class="mainimage">
+          <div class="p"><i class="fa-solid fa-chevron-left"></i></div>
+          <div class="n"><i class="fa-solid fa-chevron-right"></i></div>
+          <img class="car" src="images/image-product-1.jpg" alt="">
+        </div>
+        <div class="sideimage">
+          <div class="images img1">
+            <img src="images/image-product-1-thumbnail.jpg" alt="">
+          </div>
+          <div class="images img1">
+            <img src="images/image-product-2-thumbnail.jpg" alt="">
+          </div>
+          <div class="images img1">
+            <img src="images/image-product-3-thumbnail.jpg" alt="">
+          </div>
+          <div class="images img1">
+            <img src="images/image-product-4-thumbnail.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="showcontent">
+        <p>Sneaker Company</p>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p class="para">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div class="amount">
+          <div class="original">
+            <p>$<span class="price">125.00</span></p>
+            <p>50%</p>
+          </div>
+          <p>$250.00</p>
+        </div>
+        <div class="cartingdetails">
+          <div class="addcart">
+            <button><img class="minus" src="images/icon-minus.svg" alt=""></button>
+            <p id="number">0</p>
+            <button><img class="add" src="images/icon-plus.svg" alt=""></button>
+          </div>
+          <button class="addtocart"><img src="images/icon-cart.svg" alt="">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="imagepopup">
+    <i id="xmark" class="fa-solid fa-xmark"></i>
+    <div class="mainimage">
+      <img id="carousal" src="images/image-product-1.jpg" alt="">
+      <div class="left"><i class="fa-solid fa-chevron-left"></i></div>
+      <div class="right"><i class="fa-solid fa-chevron-right"></i></div>
+    </div>
+    <div class="sideimage">
+      <div class="images">
+        <img src="images/image-product-1-thumbnail.jpg" alt="">
+      </div>
+      <div class="images">
+        <img src="images/image-product-2-thumbnail.jpg" alt="">
+      </div>
+      <div class="images">
+        <img src="images/image-product-3-thumbnail.jpg" alt="">
+      </div>
+      <div class="images">
+        <img src="images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="black"></div>
+<script src="script.js"></script>
+</body>
+</html>
